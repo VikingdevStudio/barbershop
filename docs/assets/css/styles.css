@@ -1,0 +1,185 @@
+.video {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+@media (max-width:992px) {
+  .video {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+#video {
+  width: 100%;
+  overflow: visible;
+}
+
+.video img {
+  position: absolute;
+  width: 30%;
+}
+
+.separar {
+  height: 120px;
+}
+
+@media (max-width: 700px) {
+  .separar {
+    height: 0px;
+  }
+}
+
+.botonReserva {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonReserva a {
+  color: #967005;
+  background: #000000;
+  border: 3px #967005 solid;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 20px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+
+body {
+  background: #000;
+}
+
+.navigation-clean-button {
+  background: #000;
+  color: #fff;
+}
+
+#navcol-1 a {
+  color: #fff;
+}
+
+#carousel-1 {
+  padding: 50px;
+}
+
+.acercade {
+  margin: auto;
+  text-align: center;
+  max-width: 800px;
+}
+
+.acercade p {
+  color: #fff;
+}
+
+.acercade h1 {
+  color: #967005;
+}
+
+.acercade .linea {
+  width: 50%;
+  height: 2px;
+  background: #967005;
+  margin: auto;
+}
+
+.shop {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+  .shop {
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
+
+.mitienda {
+  background: #fff;
+}
+
+.shop img {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: 750px;
+}
+
+.contact-clean .boton {
+  background: red;
+  width: 50%;
+  border: 2px red solid;
+  color: #fff;
+}
+
+.contact-clean .acomodar {
+  text-align: center;
+}
+
+.contact-clean .acomodar img {
+  width: 30%;
+}
+
+.micarrito {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.micarrito i {
+  color: #fff;
+  margin-right: 30px;
+  font-size: 25px;
+}
+
+.micarrito a {
+  text-decoration: none;
+}
+
+.thanks {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.thanks img {
+  width: 30%;
+}
+
+@media (max-width: 576px) {
+  .thanks img {
+    width: 50%;
+  }
+}
+
+.thanks button {
+  width: 100%;
+  border: 2px gold solid;
+  background: none;
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  text-decoration: none;
+}
+
